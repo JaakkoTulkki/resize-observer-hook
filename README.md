@@ -8,18 +8,18 @@ simpler  with React.
 ```ecmascript 6
 function MyComponent() {
     const ref = useRef(null);
-        // current is the ref object.
-        // entries is an array of ResizeObserverEntry objects.
-        const {current, entries} = useResizeObserver(ref);
-        const [width, setWidth] = useState(10);
-        const offsetWidth = current ? current.offsetWidth : 0;
-        console.log(offsetWidth, entries)
-        return <>
-            <input style={{width: `${width}px`}} type="text" value="This is being observed" ref={ref}/>
-            <br/>
-            <button onClick={() => setWidth(width + 10)}>Add Width</button>
-            <p>The offsetWidth is {offsetWidth}</p>
-        </>
+    // current is the ref object.
+    // entries is an array of ResizeObserverEntry objects.
+    const {current, entries} = useResizeObserver(ref);
+    const [width, setWidth] = useState(10);
+    const offsetWidth = current ? current.offsetWidth : 0;
+    console.log(offsetWidth, entries)
+    return <>
+        <input style={{width: `${width}px`}} type="text" value="This is being observed" ref={ref}/>
+        <br/>
+        <button onClick={() => setWidth(width + 10)}>Add Width</button>
+        <p>The offsetWidth is {offsetWidth}</p>
+    </>
 }
 ```
 
