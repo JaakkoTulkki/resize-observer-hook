@@ -1,4 +1,1 @@
-export declare function useResizeObserver(ref: any): {
-    current: any;
-    entries: any;
-};
+export declare function useResizeObserver(ref: any): any;
