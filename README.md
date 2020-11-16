@@ -3,6 +3,10 @@
 The purpose of the hook is to make using [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 simpler  with React.
 
+## Install
+
+`npm install --save simple-resize-observer-hook`
+
 ## API
 
 ```ecmascript 6
