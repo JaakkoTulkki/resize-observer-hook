@@ -1,5 +1,5 @@
 {
-  "name": "react-resize-observer-hook",
+  "name": "simple-resize-observer-hook",
   "version": "1.0.0",
   "description": "React hook to use ResizeObserver",
   "main": "dist/index.js",
